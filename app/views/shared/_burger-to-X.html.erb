@@ -1,0 +1,22 @@
+<div class="btn-group">
+  <button type="button" class="list-group-item" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <!-- test burger to X moving-->
+    <div class="nav-icon">
+      <div class="burger-menu">
+      </div>
+    </div>
+  </button>
+  <div class="dropdown-menu">
+    <% link_to class: "btn btn-flat list-group-item btn-navbar" %>
+      <a class="dropdown-item">
+        <%= link_to "Hatha Yoga", root_path( :anchor => "hatha" ) %>
+      </a>
+      <a class="dropdown-item">
+        <%= link_to "About me", root_path( :anchor => "about-me" ) %>
+      </a>
+      <a class="dropdown-item">
+        <%= link_to "Tarifs", root_path( :anchor => "tarifs" ) %>
+      </a>
+      <div class="dropdown-item"></div>
+  </div>
+</div>
