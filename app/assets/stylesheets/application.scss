@@ -16,3 +16,10 @@
 html {
   scroll-behavior: smooth;
 }
+
+a {
+  color: $dark-blue;
+    &:hover {
+      color: $dark-blue;
+    }
+}

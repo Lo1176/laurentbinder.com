@@ -1,5 +1,5 @@
 .navbar-lewagon {
-  background: white;
+  background: $white;
   padding: 8px 24px;
   display: grid;
   justify-content: space-between;
@@ -32,18 +32,15 @@
 
 }
 
-.fa-yin-yang:before {
-  color: $yellow;
-  opacity: 0.9;
-}
-
 .navbar-light .navbar-nav .nav-link {
 //   padding-bottom: 20px;
-  color: $blue;
+  color: $dark-blue;
   opacity: 0.5;
 
     &:hover {
+      color: $white;
       opacity: 0.9;
+      background-color: $violet;
     }
 
 }

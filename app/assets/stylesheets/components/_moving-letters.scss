@@ -2,6 +2,11 @@
   position: relative;
   font-weight: 900;
   font-size: 4em;
+    h1 {
+      color: $darkest-blue;
+      font-weight: bold;
+      // text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
+    }
 }
 
 .moving-letters .text-wrapper {
