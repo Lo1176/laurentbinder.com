@@ -1,0 +1,22 @@
+@media (min-width: 768px) {
+     .burger-to-X {
+      display: none
+    }
+
+}
+
+@media (max-width: 560px) {
+    // .small-devise {
+    //   display: inline-block;
+    // }
+    // .large-devise {
+    //   display: none;
+    // }
+    // .footer {
+    //   padding: 0 16px;
+    // }
+    html {
+      scroll-behavior: auto !important;
+    }
+
+}
