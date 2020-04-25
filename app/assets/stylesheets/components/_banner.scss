@@ -23,4 +23,7 @@
 
 .banner a {
   color: $light-blue;
+    &:hover {
+      color: $white;
+    }
 }
