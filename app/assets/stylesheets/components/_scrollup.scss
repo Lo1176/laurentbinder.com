@@ -1,13 +1,22 @@
 .scrollup {
     width: 40px;
     height: 40px;
+    border-radius: 50%;
     opacity: 1;
     position: fixed;
     bottom: 22px;
     right: 20px;
-    display: none;
-    text-indent: -9999px;
-    background-color: $blue;
-    // background: url(../images/scroll-top-arrow.png) no-repeat left top;
-    // z-index: 999;
+    // display: none;
+    background-color: $darkest-blue;
+    font-size: 36px;
+    text-align: center;
+    color: $violet;
+      &:hover {
+        background-color: $violet;
+      }
+
+}
+
+.scroll-caret-up a:hover {
+  color: white;
 }

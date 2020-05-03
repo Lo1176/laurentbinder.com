@@ -1,4 +1,4 @@
-.navbar-lewagon {
+.navbar-portfolio {
   background: $white;
   padding: 8px 24px;
   display: grid;
@@ -8,11 +8,11 @@
   grid-template-areas: "gauche logo droite";
 }
 
-.navbar-lewagon .navbar-collapse {
+.navbar-portfolio .navbar-collapse {
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
+.navbar-portfolio .navbar-brand img {
   width: 40px;
 }
 
