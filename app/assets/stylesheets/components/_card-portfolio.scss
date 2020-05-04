@@ -23,22 +23,7 @@
           font-size: 16px;
         }
 
-        .details {
-          opacity: 0;
-          // background-color: $darkest-blue;
-          // padding: 16px 16px;
-          // margin: auto 25%;
-          // border-radius: 60px 16px 40px 12px;
 
-            &:hover {
-              opacity: 1;
-              // font-family: 'FontAwesome';
-              //   top: 0;
-              //   left: 10px;
-              //   content: "\f02e";
-            }
-
-        }
     }
     .portfolio-end p {
       margin-bottom: 4px;
@@ -62,4 +47,13 @@
       background-position: center;
 
     }
+
+}
+
+#show-details .details {
+  // opacity: 0;
+
+      &:hover {
+        // opacity: 1;
+      }
 }

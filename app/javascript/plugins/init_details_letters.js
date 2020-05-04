@@ -1,61 +1,72 @@
+window.onload = showDetails;
+
+function showDetails() {
+  var div = document.getElementById("show-details");
+  div.initDetailsLetters = false;
+  div.onmouseover = function() {
+    this.initDetailsLetters = true;
+  };
+}
+
 const initDetailsLetters = () => {
-  var ml4 = {};
-  ml4.opacityIn = [0,1];
-  ml4.scaleIn = [0.2, 1];
-  ml4.scaleOut = 3;
-  ml4.durationFirst = 3800;
-  ml4.durationIn = 800;
-  ml4.durationOut = 600;
-  ml4.delay = 500;
+  var detailsLetters = {};
+  detailsLetters.opacityIn = [0,1];
+  detailsLetters.scaleIn = [0.2, 1];
+  detailsLetters.scaleOut = 3;
+  detailsLetters.durationFirst = 3800;
+  detailsLetters.durationIn = 800;
+  detailsLetters.durationOut = 600;
+  detailsLetters.delay = 500;
 
   anime.timeline({loop: false})
     .add({
-      targets: '.ml4 .letters-1',
-      opacity: ml4.opacityIn,
-      scale: ml4.scaleIn,
-      duration: ml4.durationFirst
+      targets: '.details-letters .letters-1',
+      opacity: detailsLetters.opacityIn,
+      scale: detailsLetters.scaleIn,
+      duration: detailsLetters.durationFirst
     }).add({
-      targets: '.ml4 .letters-1',
+      targets: '.details-letters .letters-1',
       opacity: 0,
-      scale: ml4.scaleOut,
-      duration: ml4.durationOut,
+      scale: detailsLetters.scaleOut,
+      duration: detailsLetters.durationOut,
       easing: "easeInExpo",
-      delay: ml4.delay
+      delay: detailsLetters.delay
     }).add({
-      targets: '.ml4 .letters-2',
-      opacity: ml4.opacityIn,
-      scale: ml4.scaleIn,
-      duration: ml4.durationIn
+      targets: '.details-letters .letters-2',
+      opacity: detailsLetters.opacityIn,
+      scale: detailsLetters.scaleIn,
+      duration: detailsLetters.durationIn
     }).add({
-      targets: '.ml4 .letters-2',
+      targets: '.details-letters .letters-2',
       opacity: 0,
-      scale: ml4.scaleOut,
-      duration: ml4.durationOut,
+      scale: detailsLetters.scaleOut,
+      duration: detailsLetters.durationOut,
       easing: "easeInExpo",
-      delay: ml4.delay
+      delay: detailsLetters.delay
     }).add({
-      targets: '.ml4 .letters-3',
-      opacity: ml4.opacityIn,
-      scale: ml4.scaleIn,
-      duration: ml4.durationIn
+      targets: '.details-letters .letters-3',
+      opacity: detailsLetters.opacityIn,
+      scale: detailsLetters.scaleIn,
+      duration: detailsLetters.durationIn
     }).add({
-      targets: '.ml4 .letters-3',
+      targets: '.details-letters .letters-3',
       opacity: 0,
-      scale: ml4.scaleOut,
-      duration: ml4.durationOut,
+      scale: detailsLetters.scaleOut,
+      duration: detailsLetters.durationOut,
       easing: "easeInExpo",
-      delay: ml4.delay
+      delay: detailsLetters.delay
     }).add({
-      targets: '.ml4 .letters-4',
-      opacity: ml4.opacityIn,
-      scale: ml4.scaleIn,
-      duration: ml4.durationFirst
+      targets: '.details-letters .letters-4',
+      opacity: detailsLetters.opacityIn,
+      scale: detailsLetters.scaleIn,
+      duration: detailsLetters.durationFirst
     }).add({
-      targets: '.ml4',
+      targets: '.details-letters',
       opacity: 1,
       duration: 500,
       delay: 500
     });
 }
 
-export default initDetailsLetters;
+// export default initDetailsLetters;
+export default showDetails;
