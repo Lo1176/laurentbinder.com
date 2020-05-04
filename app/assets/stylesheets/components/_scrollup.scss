@@ -1,14 +1,11 @@
 .scrollup {
-    // width: 20px;
-    // height: 20px;
     border-radius: 32%;
     padding: 4px;
-    border: 0.8px solid $darkest-blue;
+    border: 0.8px solid rgba(2, 28, 69, .2);
     opacity: 0.4;
     position: fixed;
     bottom: 22px;
     right: 20px;
-    // display: none;
     background-color: $white;
     font-size: 36px;
     text-align: center;
@@ -16,10 +13,9 @@
       &:hover {
         background-color: $darkest-blue;
         opacity: 1;
+        color: $white;
+
       }
 
-}
 
-.scroll-caret-up a:hover {
-  color: white;
 }
