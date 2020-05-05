@@ -1,14 +1,16 @@
 .container-portfolio {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 -1em;
 
     .card-portfolio {
       min-width: 340px;
       min-height: 360px;
-      // padding: 16px;
-      border-radius: 10px;
-      border: 8px solid $body-bg;
+      max-width: 408px;
+
+      // border-radius: 10px;
+      margin: 8px;
       color: $body-bg;
       text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
       display: grid;
@@ -29,22 +31,32 @@
       margin-bottom: 4px;
     }
     .card-img-a {
-      background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url("img-a.png");
+      background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0)), url("img-b.png");
       background-size: cover;
       background-position: center;
+        &:hover {
+          background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url("img-a.png");
+
+        }
 
     }
     .card-img-b {
-      background-image: linear-gradient(rgba(25,0,0,0.6), rgba(30,0,0,0.3)), url("img-b.png");
-      background-size: cover;
-      background-position: center;
-      // background-position: 50% 64%;
+      background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0)), url("img-b.png");
+            background-size: cover;
+            background-position: center;
+              &:hover {
+                background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url("img-b.png");
+
+              }
 
     }
     .card-img-c {
-      background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url("img-c");
+      background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0)), url("img-c");
       background-size: cover;
       background-position: center;
+        &:hover {
+          background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url("img-c");
+        }
 
     }
 
