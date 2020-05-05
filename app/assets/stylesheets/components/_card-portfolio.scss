@@ -31,7 +31,7 @@
       margin-bottom: 4px;
     }
     .card-img-a {
-      background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0)), url("img-b.png");
+      background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0)), url("img-a.png");
       background-size: cover;
       background-position: center;
         &:hover {
@@ -63,9 +63,9 @@
 }
 
 #show-details .details {
-  // opacity: 0;
+  opacity: 0;
 
       &:hover {
-        // opacity: 1;
+        opacity: 1;
       }
 }
