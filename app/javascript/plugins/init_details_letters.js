@@ -1,7 +1,7 @@
 window.onload = showDetails;
 
 function showDetails() {
-  var div = document.getElementById("show-details");
+  var div = document.getElementById.childen("show-details");
   div.initDetailsLetters = false;
   div.onmouseover = function() {
     this.initDetailsLetters = true;
