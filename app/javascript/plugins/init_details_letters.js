@@ -60,12 +60,12 @@ const initDetailsLetters = () => {
 
 function showDetails() {
   // var div = document.getElementById("show-details");
-  var div = document.getElementById("show-details");
-  // console.log(div);
+  var div = document.getElementById('show-details');
   // div.initDetailsLetters = false;
   div.onmouseover = function() {
-  console.log(this);
-  return initDetailsLetters;
+  console.log("hello");
+  // console.log(this);
+  // return initDetailsLetters;
   };
   // console.log(div);
   if (div.onmouseover) {
