@@ -59,19 +59,11 @@ const initDetailsLetters = () => {
 }
 
 function showDetails() {
-  // var div = document.getElementById("show-details");
-  var div = document.getElementById('show-details');
-  // div.initDetailsLetters = false;
-  div.onmouseover = function() {
-  console.log("hello");
-  // console.log(this);
-  // return initDetailsLetters;
-  };
-  // console.log(div);
-  if (div.onmouseover) {
-    // console.log(this);
-    return initDetailsLetters;
-  }
+
+  var details = document.getElementById('show-details');
+
+  details.addEventListener('mouseover', initDetailsLetters);
+
 }
 window.onload = showDetails;
 // export default initDetailsLetters;
