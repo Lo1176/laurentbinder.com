@@ -2,14 +2,15 @@
 // const myscroll = document.querySelector('.scrollup');
 
 // When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function () {scrollFunction()};
+window.onscroll = scrollFunction;
 
 function scrollFunction() {
-  if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
-    document.querySelector('.scrollup').style.display = "block";
-  } else {
-    document.querySelector('.scrollup').style.display = "none";
-  }
+  // if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+  //   document.querySelector('.scrollup').style.display = "block";
+  // } else {
+  //   document.querySelector('.scrollup').style.display = "none";
+  const state = document.documentElement.scrollTop > 400;
+  document.querySelector('.scrollup').style.display = state ? 'block' : 'none';
 };
 
 // When the user clicks on the button, scroll to the top of the document
