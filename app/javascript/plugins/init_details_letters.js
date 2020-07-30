@@ -64,7 +64,14 @@ function showDetails() {
 
   details.addEventListener('mouseover', initDetailsLetters);
 
+
 }
+
+// const playItOnce = async() => {
+//   var details = document.getElementById('show-details');
+//   details.removeEventListener('mouseover',initDetailsLetters, false )
+//   const result = await showDetails()
+// }
 window.onload = showDetails;
 // export default initDetailsLetters;
 export default showDetails;
