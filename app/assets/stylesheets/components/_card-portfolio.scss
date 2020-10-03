@@ -2,12 +2,15 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 0 -1em;
+  // margin: 0 0;
 
     .card-portfolio {
       min-width: 340px;
       min-height: 360px;
       max-width: 408px;
+
+
+        // position: absolute;
 
       // border-radius: 10px;
       margin: 8px;
@@ -24,42 +27,38 @@
         p {
           font-size: 16px;
         }
+        transition: 0.3s;
+
+
 
 
     }
     .portfolio-end p {
       margin-bottom: 4px;
     }
-    .card-img-a {
+    .img-a {
       background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0)), url("img-a.png");
-      transition-property: opacity, left;
-      transition-duration: 2s, 4s;
-      background-size: cover;
-      background-position: center;
-        &:hover {
-          // background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url("img-a.png");
-
-        }
 
     }
-    .card-img-b {
+    .img-b {
       background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0)), url("img-b.png");
-            background-size: cover;
-            background-position: center;
-              &:hover {
-                background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url("img-b.png");
 
-              }
 
     }
-    .card-img-c {
-      background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0)), url("img-c");
+    .img-c {
+      background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0)), url("img-c.png");
+
+    }
+    .card-img {
       background-size: cover;
       background-position: center;
-        &:hover {
-          background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url("img-c");
-        }
 
+        &:hover {
+          transform: scale(1.1);
+          // filter: blur(10px);
+
+
+        }
     }
 
 }
