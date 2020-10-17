@@ -1,0 +1,83 @@
+Searching 127 files for "title"
+
+/Users/laurentbinder/code/Lo1176/perso-projects/lb-portfolio/app/assets/stylesheets/components/_card-area.scss:
+    5
+    6  // line separation
+    7: .title-line {
+    8      width: 100%;
+    9      margin-bottom: 16px;
+   ..
+   27  }
+   28
+   29: .title-line:after {
+   30      content: '';
+   31      position: absolute;
+
+/Users/laurentbinder/code/Lo1176/perso-projects/lb-portfolio/app/views/layouts/application.html.erb:
+    4      <meta charset="UTF-8">
+    5      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    6:     <title>Laurent Binder</title>
+    7      <%= csrf_meta_tags %>
+    8      <%= action_cable_meta_tag %>
+
+/Users/laurentbinder/code/Lo1176/perso-projects/lb-portfolio/app/views/pages/home.html.erb:
+    3  <!-- banner -->
+    4  <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1515643395264-3f8c19a2dc77?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1660&q=180);">
+    5:   <div class="container-title">
+    6      <h1>Full-Stack Web Developer</h1>
+    7      <p>Création de sites Web modernes et sur mesure</p>
+    .
+   13  <div id="portfolio">
+   14    <div class="card-area">
+   15:     <div class="title-line"><h3>Projets</h3></div>
+   16
+   17      <div class="container-portfolio">
+   ..
+   28          <a id="show-details" href="http://kiddo-hatha-website.herokuapp.com/" target="_blank" class="card-portfolio card-img img-b col-xs-10 col-sm-10 col-md-5 col-lg-4 col-xl-4">
+   29            <div class="details">
+   30:             <div class="title">
+   31              <h2>Yoga <span>Hatha</span></h2>
+   32                <p>Un site web pour une prof de Yoga</p>
+   ..
+   38          <a id="show-details" href="https://proximart.herokuapp.com/" target="_blank" class="card-portfolio card-img img-c col-xs-10 col-sm-10 col-md-5 col-lg-4 col-xl-4">
+   39            <div class="details">
+   40:             <div class="title">
+   41                <h2>Proxim'art</h2>
+   42                <p>Trouvez une exposition près de chez vous</p>
+
+/Users/laurentbinder/code/Lo1176/perso-projects/lb-portfolio/config/initializers/simple_form.rb:
+   89
+   90    # Series of attempts to detect a default label method for collection.
+   91:   # config.collection_label_methods = [ :to_label, :name, :title, :to_s ]
+   92
+   93    # Series of attempts to detect a default value method for collection.
+
+/Users/laurentbinder/code/Lo1176/perso-projects/lb-portfolio/config/locales/simple_form.en.yml:
+    8        # You can uncomment the line below if you need to overwrite the whole required html.
+    9        # When using html, text and mark won't be used.
+   10:       # html: '<abbr title="required">*</abbr>'
+   11      error_notification:
+   12        default_message: "Please review the problems below:"
+
+/Users/laurentbinder/code/Lo1176/perso-projects/lb-portfolio/public/404.html:
+    2  <html>
+    3  <head>
+    4:   <title>The page you were looking for doesn't exist (404)</title>
+    5    <meta name="viewport" content="width=device-width,initial-scale=1">
+    6    <style>
+
+/Users/laurentbinder/code/Lo1176/perso-projects/lb-portfolio/public/422.html:
+    2  <html>
+    3  <head>
+    4:   <title>The change you wanted was rejected (422)</title>
+    5    <meta name="viewport" content="width=device-width,initial-scale=1">
+    6    <style>
+
+/Users/laurentbinder/code/Lo1176/perso-projects/lb-portfolio/public/500.html:
+    2  <html>
+    3  <head>
+    4:   <title>We're sorry, but something went wrong (500)</title>
+    5    <meta name="viewport" content="width=device-width,initial-scale=1">
+    6    <style>
+
+16 matches across 8 files

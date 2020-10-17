@@ -53,11 +53,30 @@
 
 }
 
-#show-details .details {
-  opacity: 0;
-  transition: opacity 0.35s, transform 0.35s;
-  transform: translate3d(100%,0,0);
-  backface-visibility: hidden;
+
+#show-details {
+    h2 {
+      word-spacing: -0.15em;
+      text-transform: capitalize;
+      font-weight: 300;
+    }
+    h2 span {
+      text-transform: uppercase;
+      font-weight: 800;
+      letter-spacing: 2px;
+    }
+    .details p {
+      opacity: 0;
+      transition: opacity 0.35s, transform 0.35s;
+      transform: translate3d(100%,0,0);
+      backface-visibility: hidden;
+
+      h2, p {
+        margin: 0;
+      }
+
+
+}
 
 }
 
