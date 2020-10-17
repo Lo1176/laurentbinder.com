@@ -105,12 +105,15 @@ figure.effect-sarah img {
   transform: translate3d(-10px,0,0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  background-position: center;
 }
 
 figure.effect-sarah:hover img {
   opacity: 0.4;
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
+  background-position: inherit;
+
 }
 
 figure.effect-sarah figcaption {
@@ -137,7 +140,7 @@ figure.effect-sarah h2::after {
   transform: translate3d(-100%,0,0);
 }
 
-figure.effect-sarah:hover h2::after {
+figure.effect-sarah h2::after {
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }

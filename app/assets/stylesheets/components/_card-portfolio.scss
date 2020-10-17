@@ -46,14 +46,22 @@
         background-position: center;
       }
 
+      .card-img:hover {
+        background-position: inherit;
+
+      }
+
 }
 
 #show-details .details {
   opacity: 0;
+  transition: opacity 0.35s, transform 0.35s;
+  transform: translate3d(100%,0,0);
 }
 
 #show-details:hover {
     .details {
       opacity: 1;
+      transform: translate3d(0,0,0);
     }
 }
