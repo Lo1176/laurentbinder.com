@@ -2,17 +2,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  // margin: 0 0;
 
     .card-portfolio {
       min-width: 340px;
-      min-height: 360px;
+      min-height: 260px;
       max-width: 408px;
-
-
-        // position: absolute;
-
-      // border-radius: 10px;
       margin: 8px;
       color: $body-bg;
       text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
@@ -28,38 +22,29 @@
           font-size: 16px;
         }
         transition: 0.3s;
+      }
 
+      .portfolio-end p {
+        margin-bottom: 4px;
+      }
 
+      .img-a {
+        background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0)), url("img-a.png");
 
+      }
 
-    }
-    .portfolio-end p {
-      margin-bottom: 4px;
-    }
-    .img-a {
-      background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0)), url("img-a.png");
+      .img-b {
+        background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0)), url("img-b.png");
+      }
 
-    }
-    .img-b {
-      background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0)), url("img-b.png");
+      .img-c {
+        background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0)), url("img-c.png");
+      }
 
-
-    }
-    .img-c {
-      background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0)), url("img-c.png");
-
-    }
-    .card-img {
-      background-size: cover;
-      background-position: center;
-
-        &:hover {
-          // transform: scale(1.1);
-          // filter: blur(10px);
-
-
-        }
-    }
+      .card-img {
+        background-size: cover;
+        background-position: center;
+      }
 
 }
 
