@@ -18,78 +18,68 @@
 
       <!-- <div id="show-details" onmouseover="showDetails()"> -->
         <a id="show-details" href="https://cocktailsappwagonlo1176.herokuapp.com/" target="_blank" class="card-portfolio card-img img-a col-xs-10 col-sm-10 col-md-5 col-lg-4 col-xl-4">
+          <h2>Pimp my <span>Cocktails</span></h2>
           <div class="details">
-            <div class="title">
-              <%#= render 'shared/details-letters' %>
-
-              <h4>Pimp my Cocktails</h4>
-              <p>Save and customise your coktails</p>
-            </div>
-            <div class="portfolio-end"></div>
+            <p>Save and customise MY coktails</p>
           </div>
+
         </a>
 
         <a id="show-details" href="http://kiddo-hatha-website.herokuapp.com/" target="_blank" class="card-portfolio card-img img-b col-xs-10 col-sm-10 col-md-5 col-lg-4 col-xl-4">
+          <h2>Yoga <span>Hatha</span></h2>
           <div class="details">
             <div class="title">
-              <h4>Yoga Hatha</h4>
-              <p>Un site web pour un prof de Yoga</p>
+              <p>Un site web pour une prof de Yoga</p>
             </div>
             <div class="portfolio-end"></div>
           </div>
         </a>
 
         <a id="show-details" href="https://proximart.herokuapp.com/" target="_blank" class="card-portfolio card-img img-c col-xs-10 col-sm-10 col-md-5 col-lg-4 col-xl-4">
+          <h2><span>Proxim'art</span></h2>
           <div class="details">
             <div class="title">
-              <h4>Proxim'art</h4>
               <p>Trouvez une exposition près de chez vous</p>
-              <%#= render 'shared/details-letters' %>
             </div>
             <div class="portfolio-end"></div>
           </div>
         </a>
 
-    </div>
-  </div>
-</div>
 
 <!-- sarah fx -->
-<div class="content">
-  <h2>Sarah</h2>
-  <div class="grid">
-    <a href="https://cocktailsappwagonlo1176.herokuapp.com/" target="_blank" class="col-xs-10 col-sm-10 col-md-5 col-lg-4 col-xl-4">
-      <figure class="effect-sarah">
-        <%= image_tag "img-a.png", alt: "img-a" %>
-        <img/>
-        <figcaption>
-          <h2>Pimp  my  <span>Cocktails</span></h2>
-          <p>Save and customise your coktails</p>
-        </figcaption>
-      </figure>
-    </a>
+<!-- <div id="portfolio"> -->
+  <!-- <div class="card-area"> -->
 
-    <a href="https://cocktailsappwagonlo1176.herokuapp.com/" target="_blank" class="col-xs-10 col-sm-10 col-md-5 col-lg-4 col-xl-4">
-      <figure class="effect-sarah">
-        <%= image_tag "img-b.png", alt: "img-b" %>
-        <img/>
-        <figcaption>
-          <h2>Pimp  my  <span>Cocktails</span></h2>
-          <p>Save and customise your coktails</p>
-        </figcaption>
-      </figure>
-    </a>
+      <a href="https://cocktailsappwagonlo1176.herokuapp.com/" target="_blank">
+        <figure class="effect-sarah card-portfolio card-img col-xs-10 col-sm-10 col-md-5 col-lg-4 col-xl-4">
+          <%= image_tag "img-a.png", alt: "img-a" %>
+          <figcaption>
+            <h2>Pimp my <span>Cocktails</span></h2>
+            <p>Save and customise your coktails</p>
+          </figcaption>
+        </figure>
+      </a>
 
-    <a href="https://cocktailsappwagonlo1176.herokuapp.com/" target="_blank" class="col-xs-10 col-sm-10 col-md-5 col-lg-4 col-xl-4">
-      <figure class="effect-sarah">
-        <%= image_tag "img-c.png", alt: "img-c" %>
-        <img/>
-        <figcaption>
-          <h2>Pimp  my  <span>Cocktails</span></h2>
-          <p>Save and customise your coktails</p>
-        </figcaption>
-      </figure>
-    </a>
+      <a href="https://cocktailsappwagonlo1176.herokuapp.com/" target="_blank">
+        <figure class="effect-sarah card-portfolio card-img col-xs-10 col-sm-10 col-md-5 col-lg-4 col-xl-4">
+          <%= image_tag "img-b.png", alt: "img-b" %>
+          <figcaption>
+            <h2>Yoga <span>Hatha</span></h2>
+            <p>Un site web pour une prof de Yoga</p>
+          </figcaption>
+        </figure>
+      </a>
+
+      <a href="https://cocktailsappwagonlo1176.herokuapp.com/" target="_blank">
+        <figure class="effect-sarah card-portfolio card-img col-xs-10 col-sm-10 col-md-5 col-lg-4 col-xl-4">
+          <%= image_tag "img-c.png", alt: "img-c", class: "img-size" %>
+          <figcaption>
+            <h2><span>Proximart</span></h2>
+            <p>Trouvez une exposition près de chez vous</p>
+          </figcaption>
+        </figure>
+      </a>
+    </div>
   </div>
 </div>
 
