@@ -8,7 +8,7 @@
       min-height: 260px;
       max-width: 408px;
       margin: 8px;
-      color: $body-bg;
+      color: $light-gray;
       text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
       display: grid;
       text-align: center;
@@ -48,17 +48,20 @@
 
       .card-img:hover {
         background-position: inherit;
-
       }
 
 }
 
 
 #show-details {
+  text-align: left;
+  padding: 0 32px;
     h2 {
       word-spacing: -0.15em;
       text-transform: capitalize;
       font-weight: 300;
+      border-bottom: solid 3px white;
+      padding: 8px 0;
     }
     h2 span {
       text-transform: uppercase;
@@ -69,7 +72,11 @@
       opacity: 0;
       transition: opacity 0.35s, transform 0.35s;
       transform: translate3d(100%,0,0);
-      backface-visibility: hidden;
+      padding: 1em 0;
+      letter-spacing: 1px;
+      font-size: 68.5%;
+      text-transform: uppercase;
+      // backface-visibility: hidden;
 
       h2, p {
         margin: 0;
@@ -81,7 +88,7 @@
 }
 
 #show-details:hover {
-    .details {
+    .details p {
       opacity: 1;
       transform: translate3d(0,0,0);
     }
