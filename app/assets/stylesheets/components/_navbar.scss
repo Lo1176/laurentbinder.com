@@ -34,13 +34,13 @@
 
 .navbar-light .navbar-nav .nav-link {
 //   padding-bottom: 20px;
-  color: $dark-blue;
-  opacity: 0.5;
+  color: $darkest-blue;
+  opacity: 0.7;
 
     &:hover {
-      color: $white;
-      opacity: 0.9;
-      background-color: $violet;
+      color: $darkest-blue;
+      opacity: 1;
+      // background-color: $violet;
     }
 
 }
