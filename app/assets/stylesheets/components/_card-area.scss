@@ -10,14 +10,16 @@
     text-align: center;
     font-size: 28px;
     position: relative;
-    background-color: $body-bg;
+    // background-color: $body-bg;
+    background-color: $darkest-blue;
       h3 {
           background-color: $body-bg; /* Same as the parents Background */
           width: auto;
           display: inline-block;
           z-index: 3;
           padding: 0 20px;
-          color: $darkest-blue;
+          // color: $darkest-blue;
+          color: $light-gray;
           position: relative;
           font-family: raleway;
           font-weight: lighter;
@@ -35,5 +37,5 @@
     // border-bottom: solid 1px #fff;
     left: 0;
     z-index: 1;
-    background: $darkest-blue;
+    background: $light-gray;
 }

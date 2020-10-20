@@ -126,6 +126,7 @@ figure.effect-sarah h2 {
 }
 
 figure.effect-sarah h2::after {
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
