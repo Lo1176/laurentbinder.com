@@ -1,5 +1,5 @@
 .navbar-portfolio {
-  background: $white;
+  background: $pink;
   padding: 8px 24px;
   display: grid;
   justify-content: space-between;
@@ -29,18 +29,5 @@
 .right-navbar {
   grid-area: droite;
   justify-self: center;
-
-}
-
-.navbar-light .navbar-nav .nav-link {
-//   padding-bottom: 20px;
-  color: $darkest-blue;
-  opacity: 0.7;
-
-    &:hover {
-      color: $darkest-blue;
-      opacity: 1;
-      // background-color: $violet;
-    }
 
 }
