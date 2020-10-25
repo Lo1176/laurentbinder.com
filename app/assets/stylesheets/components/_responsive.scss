@@ -1,10 +1,23 @@
+@media (max-width: 912px) {
+  .navbar-portfolio h1 {
+    font-size: 24px;
+  }
+}
 @media (min-width: 768px) {
-     .burger-to-X {
-      display: none
-    }
+  .burger-to-X {
+  display: none;
+  }
 
 }
+@media (max-width: 768px) {
+  .navbar-nav {
+    display: none;
+  }
+  .navbar-portfolio {
+    grid-template-columns: 2vw 60vw 2vw;
 
+  }
+}
 @media (min-width: 560px) {
   .small-devise {
         display: none;
@@ -18,6 +31,7 @@
     .large-devise {
       display: none;
     }
+
     // .footer {
     //   padding: 0 16px;
     // }
