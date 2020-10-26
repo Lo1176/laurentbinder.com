@@ -7,7 +7,7 @@
 .nav-icon:after,
 .nav-icon:before,
 .nav-icon .burger-menu {
-  background-color: $green;
+  background-color: $darkest-blue;
   border-radius: 3px;
   content: '';
   display: block;
@@ -34,6 +34,7 @@
     }
     .list-group-item {
       padding: 0;
+      background-color: $pink;
     }
     button:focus {
       outline: none;
@@ -55,10 +56,12 @@
     }
     a {
     //   padding-bottom: 20px;
-      color: $blue;
+      color: $darkest-blue;
       opacity: 0.6;
+      font-weight: bold;
 
         &:hover {
+          color: $darkest-blue;
           opacity: 1;
           text-decoration: none;
         }

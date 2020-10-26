@@ -4,8 +4,11 @@
   display: grid;
   justify-content: space-between;
   grid-template-columns: 32vw 32vw 32vw;
-  grid-template-rows: auto;
+  grid-template-rows: 48px;
   grid-template-areas: "gauche logo droite";
+    h1 {
+      // font-size: 12vw;
+    }
 }
 
 .navbar-portfolio .navbar-collapse {
