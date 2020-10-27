@@ -1,6 +1,7 @@
 require("@rails/ujs").start()
 require("@rails/activestorage").start()
 require("channels")
+// require("letterfx")
 
 import "bootstrap";
 
@@ -13,5 +14,4 @@ initLetters();
 // initDetailsLetters();
 initSrollUp();
 
-// $(".tagline").letterfx({ fx:'spin fade', pattern:/([aeiou])/ig, , fx_duration:'3s' });
-
+("#tagline").letterfx({"fx":"swirl"});
