@@ -1,6 +1,7 @@
 require("@rails/ujs").start()
 require("@rails/activestorage").start()
 require("channels")
+// require("letterfx")
 
 import "bootstrap";
 
@@ -12,3 +13,5 @@ import initSrollUp from "../plugins/init_scrollup";
 initLetters();
 // initDetailsLetters();
 initSrollUp();
+
+("#tagline").letterfx({"fx":"swirl"});
