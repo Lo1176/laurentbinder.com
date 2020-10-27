@@ -12,3 +12,6 @@ import initSrollUp from "../plugins/init_scrollup";
 initLetters();
 // initDetailsLetters();
 initSrollUp();
+
+// $(".tagline").letterfx({ fx:'spin fade', pattern:/([aeiou])/ig, , fx_duration:'3s' });
+
