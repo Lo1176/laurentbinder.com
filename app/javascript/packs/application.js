@@ -9,9 +9,17 @@ import "bootstrap";
 import initLetters from "../plugins/init_letters";
 // import initDetailsLetters from "../plugins/init_details_letters";
 import initSrollUp from "../plugins/init_scrollup";
+import { init } from 'ityped';
+// import initItyped from "../plugins/init_ityped";
 
-initLetters();
+
 // initDetailsLetters();
+initLetters();
 initSrollUp();
 
-$("#tagline").letterfx({"fx":"fly-right fly-bottom spin"});
+// letterfx is not working
+// $("#tagline").letterfx({"fx":"fly-right fly-bottom spin"});
+
+const devElement = document.querySelector('#dev')
+
+init(devElement, { showCursor: false, startDelay: 50, typeSpeed:  90, backDelay:  500, disableBackTyping: false, strings: ['Création de sites Web modernes', 'sur mesure', 'responsive', 'référencé ', 'magnifico !' ] });
