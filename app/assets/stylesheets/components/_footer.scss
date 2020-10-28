@@ -27,9 +27,11 @@
   color: $white;
 }
 
-.footer-copyright .fa-heart {
+.footer-copyright {
+  margin-right: 2vw;
+    .fa-heart {
       color: $red;
-
+    }
 }
 
 .footer-link-credit a {

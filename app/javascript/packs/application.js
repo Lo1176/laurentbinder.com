@@ -22,4 +22,4 @@ initSrollUp();
 
 const devElement = document.querySelector('#dev')
 
-init(devElement, { showCursor: false, startDelay: 50, typeSpeed:  90, backDelay:  500, disableBackTyping: false, strings: ['Création de sites Web modernes', 'sur mesure', 'responsive', 'référencé ', 'magnifico !' ] });
+init(devElement, { showCursor: false, startDelay: 50, typeSpeed:  90, backDelay:  500, disableBackTyping: false, strings: ['Création de sites Web modernes', 'sur mesure', 'responsive', 'référencés', 'magnifico !' ] });

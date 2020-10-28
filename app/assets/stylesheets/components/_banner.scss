@@ -4,6 +4,19 @@
   padding: 200px 0;
   margin-bottom: 56px;
   text-align: center;
+    .about-me p {
+      opacity: 0.2;
+      color: $pink;
+      transform: rotate(90deg);
+      /* Safari */
+      -webkit-transform: rotate(90deg);
+
+      /* Firefox */
+      -moz-transform: rotate(90deg);
+    }
+    .about-me p:hover {
+      opacity: 1;
+    }
 }
 
 .banner h1 {
