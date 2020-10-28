@@ -14,4 +14,4 @@ initLetters();
 // initDetailsLetters();
 initSrollUp();
 
-("#tagline").letterfx({"fx":"swirl"});
+$("#tagline").letterfx({"fx":"fly-right fly-bottom spin"});
