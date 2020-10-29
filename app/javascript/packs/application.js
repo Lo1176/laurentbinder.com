@@ -23,14 +23,18 @@ initSrollUp();
 
 // https://github.com/luisvinicius167/ityped
 const devElement = document.querySelector('#dev')
-const devSuffixElement = document.querySelector('#dev-suffix')
-function firstSlogan(){
-  init(devElement, { showCursor: false, loop: false, startDelay: 50, strings: [ 'Création de sites Web ' ]});
+// const devSuffixElement = document.querySelector('#dev-suffix')
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
 }
+async function firstSlogan(){
+  await sleep(4000);
+  init(devElement, { loop: false, typeSpeed:  90, startDelay: 500, backDelay:  1500, disableBackTyping: false, strings: [ 'modernes', 'sur mesure', 'responsive', 'référencés', 'magnifico !', 'sur mesure ;)' ]});
+};
 
-setTimeout(function suffixSlogan() {
-     init(devSuffixElement, { loop: false, typeSpeed:  90, backDelay:  500, disableBackTyping: false, strings: [ 'modernes', 'sur mesure', 'responsive', 'référencés', 'magnifico !', 'sur mesure ;)' ] });
+// setTimeout(function suffixSlogan() {
+//      init(devSuffixElement, { loop: false, typeSpeed:  90, backDelay:  500, disableBackTyping: false, strings: [ 'modernes', 'sur mesure', 'responsive', 'référencés', 'magnifico !', 'sur mesure ;)' ] });
 
-  }, 8000);
+//   }, 8000);
 
-// firstSlogan();
+firstSlogan();
