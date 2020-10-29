@@ -4,17 +4,18 @@
   padding: 200px 0;
   margin-bottom: 56px;
   text-align: center;
-    .about-me p {
-      opacity: 0.2;
+    .about-me .fa-chevron-down {
+      opacity: 0.5;
       color: $pink;
-      transform: rotate(90deg);
-      /* Safari */
-      -webkit-transform: rotate(90deg);
+      font-size: 48px;
+      // transform: rotate(90deg);
+      // /* Safari */
+      // -webkit-transform: rotate(90deg);
 
-      /* Firefox */
-      -moz-transform: rotate(90deg);
+      // /* Firefox */
+      // -moz-transform: rotate(90deg);
     }
-    .about-me p:hover {
+    .about-me .fa-chevron-down:hover {
       opacity: 1;
     }
 }
