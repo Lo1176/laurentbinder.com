@@ -4,6 +4,20 @@
   padding: 200px 0;
   margin-bottom: 56px;
   text-align: center;
+    .about-me .fa-chevron-down {
+      opacity: 0.5;
+      color: $pink;
+      font-size: 48px;
+      // transform: rotate(90deg);
+      // /* Safari */
+      // -webkit-transform: rotate(90deg);
+
+      // /* Firefox */
+      // -moz-transform: rotate(90deg);
+    }
+    .about-me .fa-chevron-down:hover {
+      opacity: 1;
+    }
 }
 
 .banner h1 {
