@@ -28,10 +28,11 @@
         </li>
         <li class="nav-button">
           <span>
-            <a href="mailto: laurentbinder@gmail.com">Contact</a>
-            <%#= link_to "Contact", root_path( :anchor => "contact" ) , class: "nav-link" %>
+            <%= link_to "Info", root_path( :anchor => "about-me" ) , class: "nav-link" %>
           </span>
         </li>
+          <%= mail_to "laurentbinder@gmail.com", "Mail" %>
+
       </ul>
     </div>
   </div>

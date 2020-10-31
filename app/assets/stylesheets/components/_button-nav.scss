@@ -72,7 +72,7 @@
 .navbar-light .navbar-nav .nav-link {
 //   padding-bottom: 20px;
   color: $darkest-blue;
-  opacity: 0.7;
+  opacity: 0.1;
   padding: 8px 16px;
 
 
@@ -83,6 +83,25 @@
     }
 
 }
+
+.navbar-light a {
+//   padding-bottom: 20px;
+  color: $darkest-blue;
+  opacity: 0.1;
+  padding: 8px 16px;
+    &:hover {
+      color: $darkest-blue;
+      opacity: 1;
+      // background-color: $violet;
+    }
+}
+
+
+// .navbar-light a:hover {
+//       color: $darkest-blue;
+//       opacity: 1;
+//       // background-color: $violet;
+//     }
 
 
 // other transition
