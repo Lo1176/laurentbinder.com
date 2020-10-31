@@ -74,6 +74,9 @@
   color: $darkest-blue;
   opacity: 0.6;
   padding: 8px 16px;
+  text-align: center;
+  width: 82px;
+  height: 40px;
 
 
     &:hover {
@@ -85,7 +88,9 @@
 }
 
 .navbar-light a {
-//   padding-bottom: 20px;
+  text-align: center;
+  width: 82px;
+  height: 40px;
   color: $darkest-blue;
   opacity: 0.9;
   padding: 8px 16px;
