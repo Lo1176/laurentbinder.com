@@ -72,8 +72,11 @@
 .navbar-light .navbar-nav .nav-link {
 //   padding-bottom: 20px;
   color: $darkest-blue;
-  opacity: 0.7;
+  opacity: 0.6;
   padding: 8px 16px;
+  text-align: center;
+  width: 82px;
+  height: 40px;
 
 
     &:hover {
@@ -83,6 +86,27 @@
     }
 
 }
+
+.navbar-light a {
+  text-align: center;
+  width: 82px;
+  height: 40px;
+  color: $darkest-blue;
+  opacity: 0.9;
+  padding: 8px 16px;
+    &:hover {
+      color: $white;
+      opacity: 1;
+      // background-color: $violet;
+    }
+}
+
+
+// .navbar-light a:hover {
+//       color: $darkest-blue;
+//       opacity: 1;
+//       // background-color: $violet;
+//     }
 
 
 // other transition
