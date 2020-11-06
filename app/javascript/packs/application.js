@@ -9,6 +9,7 @@ import "bootstrap";
 import initLetters from "../plugins/init_letters";
 // import initDetailsLetters from "../plugins/init_details_letters";
 import initSrollUp from "../plugins/init_scrollup";
+import initOpacity from "../plugins/init_opacity";
 import { init } from 'ityped'
 // import initItyped from "../plugins/init_ityped";
 
@@ -16,6 +17,7 @@ import { init } from 'ityped'
 // initDetailsLetters();
 initLetters();
 initSrollUp();
+initOpacity();
 
 // letterfx is not working
 // $("#tagline").letterfx({"fx":"fly-right fly-bottom spin"});
