@@ -6,8 +6,8 @@ const initLetters = () => {
   anime.timeline({loop: false})
     .add({
       targets: '.moving-letters .letter',
-      rotateY: [-90, 0],
-      duration: 1300,
+      rotateY: [-90, 10],
+      duration: 6300,
       delay: (el, i) => 45 * i
     }).add({
       targets: '.moving-letters',
