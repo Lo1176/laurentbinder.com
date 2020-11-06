@@ -10,9 +10,10 @@
     "ityped": "^1.0.3",
     "jquery": "^3.5.0",
     "popper.js": "^1.16.1",
+    "serialize-javascript": "^5.0.1",
     "turbolinks": "^5.2.0"
   },
-  "version": "0.1.0",
+  "version": "1.22.5",
   "devDependencies": {
     "webpack-dev-server": "^3.10.3"
   }

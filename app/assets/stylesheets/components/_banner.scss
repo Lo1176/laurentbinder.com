@@ -1,6 +1,7 @@
 .banner {
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   padding: 200px 0;
   margin-bottom: 56px;
   text-align: center;
@@ -32,8 +33,13 @@
 .banner p {
   font-size: 20px;
   color: white;
-  opacity: .7;
+  opacity: .9;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+#dev {
+  // color: $pink;
+  // opacity: 1;
 }
 
 .banner a {
