@@ -7,16 +7,14 @@
     </div>
   </button>
   <div class="dropdown-menu">
-    <% link_to class: "btn btn-flat list-group-item btn-navbar" %>
-      <a class="dropdown-item">
-        <%= link_to "Hatha Yoga", root_path( :anchor => "hatha" ) %>
-      </a>
-      <a class="dropdown-item">
-        <%= link_to "About me", root_path( :anchor => "about-me" ) %>
-      </a>
-      <a class="dropdown-item">
-        <%= link_to "Tarifs", root_path( :anchor => "tarifs" ) %>
-      </a>
+
+        <%= link_to "Info", root_path( :anchor => "about-me" ) %>
+
+        <%= link_to "Projets", root_path( :anchor => "portfolio" ) %>
+
+        <a href="mailto:laurentbinder@gmail.com" target="_blank"><i class="fa fa-envelope envelope "></i></a>
+
+
       <div class="dropdown-item"></div>
   </div>
 </div>

@@ -5,6 +5,7 @@
   padding: 200px 0;
   margin-bottom: 56px;
   text-align: center;
+  height: 80vh;
     .about-me .fa-chevron-down {
       opacity: 0.5;
       color: $pink;
@@ -35,6 +36,7 @@
   color: white;
   opacity: .9;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  letter-spacing: 4px;
 }
 
 #dev {
@@ -51,4 +53,5 @@
 
 .container-banner-title {
   height: 10vh;
+  letter-spacing: 8px;
 }

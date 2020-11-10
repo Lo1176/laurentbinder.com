@@ -34,7 +34,7 @@
     }
     .list-group-item {
       padding: 0;
-      background-color: $pink;
+      background-color: $white;
     }
     button:focus {
       outline: none;
@@ -47,23 +47,28 @@
       padding: 16px;
     }
     .dropdown-menu.show{
+      display: grid;
+      justify-content: center;
       padding: 16px;
-      text-align: center;
+      // text-align: center;
       width: 100%;
       border: none;
       top: auto;
+      background-color: #f0f0f0;
 
     }
     a {
-    //   padding-bottom: 20px;
+    // padding-bottom: 20px;
       color: $darkest-blue;
-      opacity: 0.6;
+      // opacity: 0.6 !important;
       font-weight: bold;
 
         &:hover {
-          color: $darkest-blue;
-          opacity: 1;
+          color: $darkest-blue !important;
+          // opacity: 1 !important;
           text-decoration: none;
+          border-bottom: solid;
+          transition-duration: 0.2s;
         }
 
     }

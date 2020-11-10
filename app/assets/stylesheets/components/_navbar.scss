@@ -1,17 +1,11 @@
 .navbar-portfolio {
-  background: $pink;
+  background: $white;
   padding: 8px 24px;
   display: grid;
   justify-content: space-between;
   grid-template-columns: 32vw 32vw 32vw;
   grid-template-rows: 48px;
   grid-template-areas: "gauche logo droite";
-    h1 {
-      // font-size: 12vw;
-    }
-    // a {
-    //  color: red;
-    // }
 }
 
 .navbar-portfolio .navbar-collapse {
@@ -36,4 +30,9 @@
   grid-area: droite;
   justify-self: center;
 
+}
+
+.envelope {
+  align-self: center;
+  font-size: 24px;
 }
