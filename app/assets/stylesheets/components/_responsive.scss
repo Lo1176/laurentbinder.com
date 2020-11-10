@@ -4,13 +4,14 @@
   }
 }
 @media (min-width: 768px) {
-  .burger-to-X {
-  display: none;
+  .burger-to-X, #navbar {
+    display: none;
   }
+
 
 }
 @media (max-width: 768px) {
-  .navbar-nav {
+  .navbar-nav, #banner-logo {
     display: none;
   }
   .navbar-portfolio {
