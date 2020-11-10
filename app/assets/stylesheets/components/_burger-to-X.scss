@@ -56,15 +56,17 @@
 
     }
     a {
-    //   padding-bottom: 20px;
+    // padding-bottom: 20px;
       color: $darkest-blue;
-      opacity: 0.6;
+      // opacity: 0.6 !important;
       font-weight: bold;
 
         &:hover {
-          color: $darkest-blue;
-          opacity: 1;
+          color: $darkest-blue !important;
+          // opacity: 1 !important;
           text-decoration: none;
+          border-bottom: solid;
+          transition-duration: 0.2s;
         }
 
     }
