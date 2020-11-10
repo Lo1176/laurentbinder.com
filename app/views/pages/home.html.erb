@@ -1,8 +1,12 @@
 <!-- navbar -->
-<%= render 'shared/navbar' %>
+<%#= render 'shared/navbar' %>
 <!-- banner -->
 <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1515643395264-3f8c19a2dc77?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1660&q=180);">
   <div class="container-banner-title">
+    <div id="banner-logo">
+      <%= render 'shared/logo' %>
+    </div>
+
     <h1>Full-Stack Web Developer</h1>
     <!-- This section is for the JS Ityped -->
     <p>Création de sites Web <span id="dev"></span></p>
