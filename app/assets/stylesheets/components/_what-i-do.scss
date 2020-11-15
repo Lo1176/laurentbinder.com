@@ -7,6 +7,12 @@
       vertical-align: middle;
       width: calc(100% - 10px);
     }
+        a {
+          color: $pink;
+          border-bottom: dotted 1px $pink;
+          padding: 0 1px;
+        }
+
     ul.icons-grid {
       list-style: none;
       padding: 0;
