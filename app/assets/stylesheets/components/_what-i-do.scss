@@ -1,24 +1,49 @@
 #what-i-do {
   text-align: center;
+  position: relative;
     .container {
       display: inline-block;
       margin-right: 1px;
       vertical-align: middle;
       width: calc(100% - 10px);
     }
-    ul.icon-grid {
+    ul.icons-grid {
       list-style: none;
+      padding: 0;
+      position: relative;
+        li {
+          display: block;
+          float: left;
+          padding: 3em 0;
+          width: 50%;
+        }
     }
 
     ul.icons-grid li:nth-child(2n + 1) {
         box-shadow: inset -1px 0 0 0 #dddddd, 1px 0 0 0 #dddddd;
     }
 
-    ul.icons-grid li {
+    .svg-inline--fa {
+      font-size: 40px;
+      font-weight: light;
+      color: $white;
+      margin-bottom: 12px;
+    }
+
+    ul.icons-grid:after {
+        clear: both;
+        content: '';
         display: block;
-        float: left;
-        padding: 3em 0;
-        width: 50%;
+    }
+
+    ul.icons-grid li:nth-child(2n + 3):before {
+        background: #dddddd;
+        content: '';
+        display: block;
+        height: 2px;
+        margin-top: -3em;
+        position: absolute;
+        width: 100%;
     }
 }
 
