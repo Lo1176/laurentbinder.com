@@ -1,12 +1,15 @@
 .container-portfolio {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  margin: 0px 12px;
+
 
     .card-portfolio {
-      min-width: 340px;
-      min-height: 260px;
-      max-width: 408px;
+      // min-width: 340px;
+      min-width: auto;
+      min-height: 320px;
+      max-width: 520px;
       margin: 8px;
       color: $light-gray;
       text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
