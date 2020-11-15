@@ -30,7 +30,7 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 async function firstSlogan(){
-  await sleep(4000);
+  await sleep(1000);
   init(devElement, { loop: false, typeSpeed:  90, startDelay: 1000, backDelay:  1500, disableBackTyping: false, strings: [ 'modernes', 'sur mesure', 'responsive', 'référencés', 'magnifico !', 'sur mesure' ]});
 };
 
